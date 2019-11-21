@@ -64,7 +64,7 @@ $(document).ready(function(){
 function getText(apiPath) {
     $.ajax({
         type: "get",
-        url: 'http://serenity.ist.rit.edu/~plgics/proxy.php',
+        url: 'https://serenity.ist.rit.edu/~plgics/proxy.php',
         data: { path: '/' + apiPath + '/' },
         cache: false,
         async: true,

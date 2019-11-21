@@ -3,7 +3,7 @@
 error_reporting(0);
 
 //sets the base of the url we want to hit
-define ('HOSTNAME', 'http://www.ist.rit.edu/api');
+define ('HOSTNAME', 'https://www.ist.rit.edu/api');
 
 //access the api - remember we have to send in a leading '/'
 //so the path variable could be '/about/'
